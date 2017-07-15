@@ -1,0 +1,19 @@
+{
+  "name": "hotrestaurant",
+  "version": "1.0.0",
+  "description": "Restaurant reservation sytemm(group projects)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afflatus480/hotRestaurant.git"
+  },
+  "author": "Robert Zobrist, Ryan Cowles, Tim Bynum, Will Charles",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/afflatus480/hotRestaurant/issues"
+  },
+  "homepage": "https://github.com/afflatus480/hotRestaurant#readme"
+}
