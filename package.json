@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/afflatus480/hotRestaurant/issues"
   },
-  "homepage": "https://github.com/afflatus480/hotRestaurant#readme"
+  "homepage": "https://github.com/afflatus480/hotRestaurant#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
 }
