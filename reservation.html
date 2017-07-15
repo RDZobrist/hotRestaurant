@@ -63,13 +63,13 @@
     // Our api recognizes the route (/api/tables)... and then runs the associated code (found in api-routes.js).
     // In this case the associated code “saves” the data to the table-data.js file or waitinglist-data.js file
     // click function to grab data from our form
-    $(‘.submit’).on(‘click’, function() {
+    $('.submit').on('click', function() {
         // var to hold our form data
         var newReservation = {
-            customerName: $(‘#reserve_name’).val().trim(),
-            customerPhoneNumber: $(‘#reserve_phone’).val().trim(),
-            customerEmail: $(‘#reserve_phone’).val().trim(),
-            customerUniqueId: $(‘#reserve_uniqueID’).val().trim()
+            customerName: $('#reserve_name').val().trim(),
+            customerPhoneNumber: $('#reserve_phone').val().trim(),
+            customerEmail: $('#reserve_phone').val().trim(),
+            customerUniqueId: $('#reserve_uniqueID').val().trim()
         }
         console.log(newReservation);
         // This line is the magic. It’s very similar to the standard ajax function we used.
@@ -80,10 +80,10 @@
         // We use this instead of explicitly saying the URL is localhost:3001 because the url will change when we deploy.
         // Code here..
         // Clear the form when submitting
-        $(‘#reserve_name’).val(“”);
-        $(‘#reserve_phone’).val(“”);
-        $(‘#reserve_email’).val(“”);
-        $(‘#reserve_uniqueID’).val(“”);
+        $('#reserve_name').val("");
+        $('#reserve_phone').val("");
+        $('#reserve_email').val("");
+        $('#reserve_uniqueID').val("");
         // prevents page from refreshing after form submission
         return false;
     });
